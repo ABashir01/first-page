@@ -1,0 +1,244 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: 175vh;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+  /*flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.header {
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .info, .quote, .call {
+    flex: 1;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 380px;    
+
+}
+
+.hero > .right {
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.hero > .left {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    overflow-wrap: normal;
+    flex: 1;
+}
+
+.lame {
+    font-size: 18px;
+    color: #E5E7EB;
+    overflow-wrap: normal;
+    flex: 1;
+}
+
+.hero > .left > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex-grow: 1;
+    width: 25%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deck {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 5px;
+}
+
+.box {
+    border: solid #3882F6 4px;
+    height: 50%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.card-text {
+  text-align: center;
+  overflow-wrap: normal;
+  width: 80%;
+  font-size: 18px;
+  color: grey;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-content {
+    width: 40%;
+}
+
+.inspire {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    overflow-wrap: normal;
+}
+
+.thor {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-box {
+    background-color: #3882F6;
+    height: 45%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-time {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sign {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+
+.button-div > button {
+    border: solid #F9FAF8 3px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 25%;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
